@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+.container{
+    position: relative;
+}
+nav ul li:hover{
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    gap:30px;
+    align-items: center;
+  
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.btn-1{
+    margin-right: 100px;
+}
+.btn{
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(255, 140, 0);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(155, 165, 42);
+}
+.cent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.cent h1{
+    font-size: 2rem;
+}
+.sec-1{
+    background-image: url(img/main.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.service h1{
+    font-size: 2rem;
+    text-align: center;}
+
+.col{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    flex-wrap: wrap;
+    transition: transform 0.5s ease;
+}
+.img-cont{
+    text-align: center;
+  
+    
+}
+.img-cont:hover{
+    transform:scale(1.02);
+}
+.test{
+    background-color: rgb(148, 147, 147);
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+.img-quet{
+    padding-bottom: 20px;
+}
+.test p{
+    font-size: 2rem;
+}
+.img-prof{
+    padding-top: 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.text{
+    margin-bottom: 20px;
+}
+.text p{
+    margin-bottom: 20px;
+}
+
+.text h1{
+    margin-bottom: 20px;
+}
+.text h2{
+    margin-bottom: 20px;
+}
+.questions{
+    text-align: center;
+    margin-top: 20px;
+    min-height: 300px;
+    background-image: url(img/main-2.png);
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+}
+.questions h1{
+    padding-bottom: 20px;
+}
+.questions p{
+    padding-bottom: 20px;
+}
+
+.container .fa{
+    display:none;
+} 
+@media screen and (max-width:720px){
+    .bar ul{
+        display: block;
+        background-color: rgb(247, 15, 15);
+        min-height: 400px;
+        position:absolute;
+        right: 0px;
+        top: 0px;
+        padding-left: 10px;
+       width:150px;
+       display: none;
+       transition: 2s ease;
+           
+    }
+  
+
+    .container .fa{
+        display: block;
+        margin-right: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+       font-size: 2rem;
+       color: white;
+    }
+    .bar ul .fa{
+        display: block;
+        font-size: 1rem;
+    }
+    .bar ul button{
+        margin: auto;
+    }
+    .bar ul li{
+        padding: 10px;
+    }
+    .bar ul .fa{
+        margin-top: 10px;
+        
+    }
+    
+
+}
+    
+
